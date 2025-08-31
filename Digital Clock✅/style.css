@@ -1,0 +1,41 @@
+* {
+    font-family: "VT323";
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: white;
+    overflow: hidden;
+}
+
+.clock {
+    padding: 30px;
+    display: inline-block;
+    margin-left: 430px;
+    margin-top: 230px;
+    background-color: rgba(222,222,222,255);
+    
+}
+
+.clock-layout {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    display:  grid;
+    grid-template-columns: 60px 30px 65px 30px 60px 30px;
+}
+
+.day {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    transform: translateX(440px) translateY(220px);
+}
